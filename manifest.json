@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/icons/my_ico19.png",
+      "default_popup": "popup.html",
+      "default_title": "You will go"
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css" ],
+      "js": [ "js/jquery-2.1.3.min.js", "js/underscore-1.7.0.js", "js/content.js" ],
+      "matches": [ "*://*/*", "file:///*" ]
+   }, {
+      "js": [ "js/content-meta.js" ],
+      "matches": [ "*://letyshops.ru/*", "*://*.letyshops.ru/*", "*://*.bissdata-home.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "ru",
+   "description": "You will go",
+   "homepage_url": "https://letyshops.ru",
+   "icons": {
+      "48": "img/icons/my_ico48.png"
+   },
+   "manifest_version": 2,
+   "name": "You will go",
+   "permissions": [ "*://*/*", "*://code.jquery.com/*", "*://letyshops.ru/*", "*://*.letyshops.ru/*", "*://*.bissdata-home.com/*", "file:///*", "tabs", "cookies", "storage", "activeTab", "background", "alarms", "notifications" ],
+   "short_name": "YouWillGo",
+   "version": "1.8.7",
+   "web_accessible_resources": [ "img/*.png", "img/*.gif" ]
+}

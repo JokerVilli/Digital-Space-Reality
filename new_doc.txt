@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<script src="js/jquery-2.1.3.min.js" charset="utf-8"></script>
+		<style>
+			HTML, BODY {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				background-color: darkviolet;
+				color: white;
+			}
+			P {
+				font-size: 24px;
+				padding: 100px;
+			}
+			DIV {
+				width: 200px;
+				height: 200px;
+				font-size: 100px;
+				line-height: 200px;
+				margin: 50px;
+				display: inline-block;
+				border: 4px solid black;
+				border-radius: 104px;
+			}
+		</style>
+	<head>
+	<body>
+		<p>After three seconds you will be passed to the online-shop</p>
+		<div>5</div>
+	</body>
+	<script>
+	secArr = [[3, 'red'],[2, 'yellow'],[1, 'Lime ']];
+	var secTimer = $('div');
+	var i = 0;
+	(function() {
+    // Выполняем периодические действия
+		if (secArr[i]) {
+			secTimer.css('border-color', secArr[i][1]).html(secArr[i][0])
+			i++
+			setTimeout(arguments.callee, 1000);
+		} else {
+			document.location = 'http://mail.ru';
+		}
+	})();
+
+	</script>
+</html>

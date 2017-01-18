@@ -1,0 +1,59 @@
+{
+   "appName": {
+      "message": "LetyShops"
+   },
+   "badge_title": {
+      "message": "Кэшбэк-сервис LetyShops"
+   },
+   "badge_title_cashback": {
+      "message": "Активируйте кэшбэк! Кликните по иконке и перейдите по кнопке “Активировать кэшбэк”"
+   },
+   "badge_title_cashbacked": {
+      "message": "Кэшбэк активирован и при покупке будет зачислен на Ваш счет"
+   },
+   "banner_activated": {
+      "message": "Кэшбэк активирован, \u003Cbr />приятных Вам покупок"
+   },
+   "banner_cashback": {
+      "message": "Кэшбэк: \u003C%=cashback%>"
+   },
+   "banner_non_activated": {
+      "message": "Активировать кэшбэк"
+   },
+   "baseUrl": {
+      "message": "https://letyshops.ru/"
+   },
+   "login": {
+      "message": "Вход"
+   },
+   "name": {
+      "message": "LetyShops.ru"
+   },
+   "partner_goto_all": {
+      "message": "&laquo; все магазины с кэшбэком"
+   },
+   "partner_info_conditions": {
+      "message": "Активировать кэшбэк"
+   },
+   "partner_info_read_more": {
+      "message": "Подробнее"
+   },
+   "partner_info_text": {
+      "message": "Кэшбэк с каждого заказа в \u003C%=partnerInfo.title%>"
+   },
+   "partner_info_text_cashbacked": {
+      "message": "Ваш кэшбэк в \u003C%=partnerInfo.title%>. \u003Cbr />Совершайте покупку."
+   },
+   "utmSource": {
+      "message": "extension"
+   },
+   "mediumUrl": {
+      "message": "account.malina.local"
+   },
+   "mediumUrlAuth": {
+      "message": "/medium_page.html"
+   },
+   "mediumUrlCount": {
+      "message": "/counter_page.html"
+   }
+}

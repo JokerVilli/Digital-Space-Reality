@@ -1,0 +1,55 @@
+.partnerOffer {
+	position: fixed;
+	top: 25px;
+	right: 25px;
+	z-index: 100000;
+	background-color: brown;
+	color: white;
+	display: block;
+	opacity: 0;
+	width: 300px;
+	height: 120px;
+	padding: 25px;
+	border: 2px solid violet;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: Arial,sans-serif;
+	line-height: 20px;
+}
+
+.partnerOfferActiveCashback{
+	background-color: green;
+}
+
+.partnerOffer > #close_marker {
+	color: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 3px;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 14px
+}
+
+
+#ext_btn {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 20px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #9b59b6;
+}
+
+
+#ext_btn:hover {
+  background-color: #B573D0;
+  text-decoration: none;
+  color: white;
+}
